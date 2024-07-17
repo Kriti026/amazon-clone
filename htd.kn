@@ -1,0 +1,10 @@
+if(height[left]<=height[right]){
+            if(height[left]>leftmax){
+                leftmax=height[left];
+                left++;
+            }
+            else{
+                water=water+leftmax-height[left];
+                left++;
+            }
+        }
